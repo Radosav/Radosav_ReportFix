@@ -7,7 +7,6 @@ class Collection extends \Magento\Reports\Model\ResourceModel\Quote\Item\Collect
 {
     protected function _afterLoad()
     {
-        parent::_afterLoad();
         $items = $this->getItems();
         $productIds = [];
         foreach ($items as $item) {
