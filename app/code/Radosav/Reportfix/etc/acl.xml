@@ -5,7 +5,7 @@
             <resource id="Magento_Backend::stores">
                 <resource id="Magento_Backend::stores_settings">
                     <resource id="Magento_Config::config">
-                        <resource id="Radosav::Reportfix" title="Reportfix"/>
+                        <resource id="Radosav_Reportfix::Reportfix" title="Reportfix"/>
                     </resource>
                 </resource>
             </resource>
